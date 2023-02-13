@@ -294,7 +294,7 @@ display: none;
 /* **************** IMAGE PRINCIPALE ************* */
 #imagePrincipale {
 padding-top: 60px;
-background: url(/img/background/anime.png) no-repeat 50% 50%;
+background: url(img/background/anime.png) no-repeat 50% 50%;
 background-size: cover;
 height: 899px;
 }
