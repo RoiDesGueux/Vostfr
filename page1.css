@@ -11595,3 +11595,45 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/********************************/
+.wp-pagenavi{
+  top: 6%;
+  text-align: center;   
+  position: relative;
+  right: 8%;
+}
+
+.wp-pagenavi a{
+  color: #191b21;
+  font-size: 1.5em;
+  margin-bottom: 6.5%;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px 30px;
+  font-size: 160%;
+}
+#pagecouleur {
+  background-color: #fad390;
+  opacity: 80%;
+
+}
+.wp-pagenavi span{
+  color: #191b21;
+  font-size: 1.5em;
+  margin-bottom: 6.5%;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px 30px;
+  font-size: 160%;
+}
+.wp-pagenavi a:hover {
+  background-color: rgb(51, 49, 49);
+  color: #fff;
+}
+.current span:hover {
+  background-color: rgb(51, 49, 49);
+  color: #fff;
+}
+  .icon {
+    margin-right: 10px;
+  }
