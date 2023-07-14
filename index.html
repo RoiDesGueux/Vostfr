@@ -1,243 +1,189 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html class="wide wow-animation" lang="en">
   <head>
-    <meta charset="UTF-8">
+    <title>Animé</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href= "img/background/roi.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Roi_Des_Gueux</title>
+    <link rel="icon" href="images/roi.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
     
-    <link rel="stylesheet" href="page1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    
-    <body>
-        <header class="header">
-              <nav class="nav">
-                <ul class="ul1">
-                  <a href="#"><img src="img/nav/logo.png" alt="Logo" id="logo" width="75px"></a>
-                  <div class="nav-droite">
-                    <li><a href="https://roidesgueux.github.io/music/">Song</a></li>
-                    <li><a href="https://roidesgueux.github.io/mes-chaines/">Mes chaînes</a></li>
-                    <li><a href="https://roidesgueux.github.io/liens/">Jeux&Logiciels</a></li>
-                    <li><a href="https://roidesgueux.github.io/anime/">Animé</a></li>
-                    <li><a href="https://roidesgueux.github.io/contactez-moi/">Nous contacter</a></li>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>chargement enculé...</p>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-wide" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-346x62.png" alt="" width="281" height="82" srcset="images/logo-default-261x72.png 2x"/><img class="brand-logo-light" src="images/animé.png" alt="" width="133" height="45" srcset="images/logo-inverse-266x90.png 2x"/></a>
                   </div>
-                </nav >
-                <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
-                <header class="header">
-                  
-                    <nav class="header__nav">
-                        <div class="header__nav__close" onclick="closeMenuMobile()">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        </div>
-                        <ul class="header__nav__menu">
-                            <li class="header__nav__menu__link">
-                                <a class="titre-nav" href="https://roidesgueux.github.io/mes-chaines/" >Mes chaînes</a>
-                                <div class="sous_titre">
-                                <img src="img/nav/tiktok.png" alt="tiktok" class="img_sous_texte" width="45px">
-                                <a href="https://www.tiktok.com/@roi_des_geueux" id="nnav"><h4 href="https://www.tiktok.com/@roi_des_geueux" id="nnav"> TikTok </h4></a>
-                                </div>
-                                <div class="sous_titre">
-                                <img src="img/nav/twitch.png" alt="tiktok" class="img_sous_texte" width="45px">
-                                <a href="https://www.twitch.tv/roi_des_gueux_max" id="nnav"><h4 href="https://www.twitch.tv/roi_des_gueux_max" id="nnav"> Twitch </h4></a>
-                                </div>
-                                <div class="sous_titre">
-                                <img src="img/nav/youtube.png" alt="tiktok" class="img_sous_texte" width="45px">
-                                <a href="https://www.youtube.com/@Roi_Des_Gueux " id="nnav"><h4 href="https://www.youtube.com/@Roi_Des_Gueux " id="nnav"> Youtube </h4></a>
-                                </div>
-                            </li>
-                            <li class="header__nav__menu__link">
-                                <a class="titre-nav" href="https://roidesgueux.github.io/liens/ ">Jeux&Logiciels</a>
-                                <div class="sous_titre">
-                                  <img src="img/nav/solo.png" alt="tiktok" class="img_sous_texte" width="43px">
-                                  <a href="https://roidesgueux.github.io/solo/" id="nnav"> <h3 href="https://roidesgueux.github.io/solo/" id="nnav"> Jeux solo </h3></a>
-                                  </div>
-                                  <div class="sous_titre">
-                                  <img src="img/nav/deux.png" alt="tiktok" class="img_sous_texte" width="40px">
-                                  <a href="https://roidesgueux.github.io/multi/" id="nnav"><h3 href="https://roidesgueux.github.io/multi/" id="nnav"> Jeux multi </h3></a>
-                                  </div>
-                                  <div class="sous_titre">
-                                     <img src="img/nav/logiciel.png" alt="tiktok" class="img_sous_texte" width="43px">
-                                     <a href="https://roidesgueux.github.io/logiciel/" id="nnav"> <h3 href="https://roidesgueux.github.io/logiciel/"> Logiciels </h3></a>
-                                      </div>
-                            </li>
-                            <li class="header__nav__menu__link">
-                                <a class="titre-nav" href="https://roidesgueux.github.io/anime/ ">Animé</a>
-                                <div class="sous_titre">
-                                  <img src="img/nav/vostfr.png" alt="tiktok" class="img_sous_texte" width="40px">
-                                  <a href="https://roidesgueux.github.io/vostfr/" id="nnav"><h1 href="https://roidesgueux.github.io/vostfr/" id="nnav"> Vostfr</h1></a>
-                                  </div>
-                                  <div class="sous_titre">
-                                  <img src="img/nav/fr.png" alt="tiktok" class="img_sous_texte" width="40px">
-                                  <a href="https://roidesgueux.github.io/VF/" id="nnav"><h1 href="https://roidesgueux.github.io/VF/" id="nnav"> VF</h1></a>
-                                  </div>
-                                  <div class="sous_titre">
-                                      <img src="img/nav/plannig.png" alt="tiktok" class="img_sous_texte" width="40px">
-                                      <a href="https://roidesgueux.github.io/planification/" id="nnav"><h1 href="https://roidesgueux.github.io/planification/"> Planning</h1></a>
-                                      </div>
-                            </li>
-            
-                        </ul>
-                    </nav>
-                    <div class="header__burger" onclick="openMenuMobile()">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </div>
-                </header>
-                <script>
-                  function openMenuMobile() {
-                      document.querySelector('.header__nav').classList.add('open');
-                      document.querySelector('.overlay-menu-mobile').classList.add('open');
-                  }
-          
-                  function closeMenuMobile() {
-                      document.querySelector('.header__nav').classList.remove('open');
-                      document.querySelector('.overlay-menu-mobile').classList.remove('open');
-                  }
-              </script>
-            <div id="imagePrincipale">
-        
-            </div></br>
-            <h1 id="title">animé vostfr</h1>
-
-            <section class="py-5">
-            <div class="container px-4 px-lg-5 mt-5">
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="img/animé/vostfr/SDHWM.png" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder">Super Dragon Ball Heroes</h5>
-                                    Goku et Vegeta s'entraînent avec Whis sur la planète de Beerus en attendant l'arrivée de Trunks du futur. Mai les averti que Trunks a disparu et un mystérieux ami de celui-ci, Fu, apprend à nos amis que Trunks est prisonnier de la planète Prison. Goku et Vegeta partent immédiatement à sa recherche.
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="page 1/dragonball heros/cc.html">View </a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="img/animé/vostfr/bluelock.png" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder">Blue Lock</h5>
-                                    Coupe du monde 2018, l'équipe de football du Japon est éliminée en huitièmes de finale... Ce nouvel échec incite l'Union japonaise de football à fonder le "Blue Lock" : un centre de formation révolutionnaire rassemblant les 300 meilleurs attaquants lycéens du pays.
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="page 1/Blue lock/cc.html">View</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="img/animé/vostfr/shadow.png" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder">The Eminence in Shadow</h5>
-                                    Les grands héros et les méchants diaboliques sont le genre de personnages que les gens ont envie d'être mais pas Cid Kagenou. Il aspire à devenir le véritable cerveau derrière tout cela, à tirer les ficelles et à faire en sorte que ses machinations dirigent toute l'histoire. Dans sa vie antérieure, il n'avait pas pu atteindre son objectif.
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="page 1/Shadow/cc.html">View</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="img/animé/vostfr/broly.png" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder">Dragon Ball Super Broly</h5>
-                                    La Terre est en paix après le Tournoi du Pouvoir mais Goku continue à s'entraîner, persuadé qu'il y a des forces encore plus fortes dans l'univers. En effet, Goku et Vegeta vont font face à un nouvel ennemi, le Super Saïyen Légendaire Broly, dans un combat explosif pour sauver notre planète.
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="page 1/Dragon Ball Super Broly/cc.html">View</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="img/animé/vostfr/mha s1.png" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder">My Hero Academia - Season 1</h5>
-                                    La première saison de la série télévisée animée My Hero Academia a été produite par Bones et réalisée par Kenji Nagasaki, avec Yōsuke Kuroda s'occupant de la composition de la série, Yoshihiko Umakoshi fournissant la conception des personnages et Yuki Hayashi composé de la musique.
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="page 1/mha s1/cc.html">View</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="img/animé/vostfr/overlord s1.png" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder">Overlord Season 1</h5>
-                                    Le plus célèbre jeu de rôle en ligne au monde est sur le point de fermer. Momonga, jeune geek, attend patiemment l'arrêt du jeu. Cependant, Momonga ne se déconnecte pas et constate que les personnages se retrouvent dotés d'une conscience.
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="page 1/overlord s1/cc.html">View</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="img/animé/vostfr/mha s2.png" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder">My Hero Academia - Season 2</h5>
-                                    La deuxième saison de la série télévisée animée My Hero Academia a été produite par Bones et réalisée par Kenji Nagasaki, avec Yōsuke Kuroda s'occupant de la composition de la série, Yoshihiko Umakoshi fournissant la conception des personnages et Yuki Hayashi composé de la musique.
-
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder">?</h5>
-                                    ?
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View</a></div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+                <div class="rd-navbar-nav-wrap">
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="https://roidesgueux.github.io/accueil/">Home</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="https://roidesgueux.github.io/music/">Song</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="https://roidesgueux.github.io/mes-chaines/">Chaîne</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="https://roidesgueux.github.io/liens/">jeux&logiciels</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="https://roidesgueux.github.io/contactez-moi/">Contacts</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </section>
-        <div class="wp-pagenavi" role="navigation">
-            <span aria-current="page" class="current">1</span><a class="page larger" title="Page 2" href="page2.html">2</a><a class="page larger" title="Page 3" href="page3.html">3</a><a class="page larger" title="Page 4" href="page4.html">4</a><a class="page larger" title="Page 5" href="page5.html">5</a><a class="page larger" title="Page 6" href="page6.html">6</a><a class="page larger" title="Page 7" href="page7.html">7</a><span class="extend">...</span><a class="nextpostslink" rel="next" aria-label="Next Page" href="page2.html">Next</a>
-            </div></br></br></br></br></br></br>
-        
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Roi_Des_Gueux 2022</p></div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/scripts.js"></script>
+          </nav>
+        </div>
+      </header>
+      <section class="section context-dark bg-image bg-mask bg-mask-2 section-fullheight section-90vh" style="background-image: url(images/animé.png)">
+        <div class="section-fullheight-inner section-md">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-xl-6 text-center text-md-left">
+                <div class="jumbotron-custom wow fadeInRight">
+                  <div class="text-1">Roi_Des_Gueux</div>
+                  <div class="text-2"></div>
+                  <div class="title">Roi_Des_Gueux_Animé</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </section>
+      <!-- Branding-->
+      <section class="section section-lg bg-default section-lined">
+        <div class="container container-custom-width">
+          <h3 class="text-center">Animé vostfr</h3>
+          <div class="row row-custom-width row-30 row-xxl-100 row-flex">
+            <div class="col-sm-6 col-lg-4 wow fadeInRight">
+              <div class="project-grid" style="background-image: url(images/vostfr/adt.jpg);">
+                <div class="inner"><img src="images/vostfr/adt.jpg" alt="" width="250" height="96"/>
+                  <h5 class="title"><a href="#">WTC Publishing</a></h5>
+                  <p class="exeption">We design incredibly creative websites for all our customers located worldwide.</p><a class="button button-light" href="#">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay="0.2s">
+              <div class="project-grid" style="background-image: url(images/vostfr/broly.png);">
+                <div class="inner"><img src="images/vostfr/broly.png" alt="" width="250" height="96"/>
+                  <h5 class="title"><a href="#">RDA Shoewear</a></h5>
+                  <p class="exeption">We design incredibly creative websites for all our customers located worldwide.</p><a class="button button-light" href="#">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay="0.4s">
+              <div class="project-grid" style="background-image: url(images/vostfr/mhas1.png);">
+                <div class="inner"><img src="images/vostfr/mhas1.png" alt="" width="250" height="96"/>
+                  <h5 class="title"><a href="#">Inter restaurant</a></h5>
+                  <p class="exeption">We design incredibly creative websites for all our customers located worldwide.</p><a class="button button-light" href="#">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay="0.2s">
+              <div class="project-grid" style="background-image: url(images/vostfr/onepiece.webp);">
+                <div class="inner"><img src="images/vostfr/onepiece.webp" alt="" width="250" height="96"/>
+                  <h5 class="title"><a href="#">Create Co.</a></h5>
+                  <p class="exeption">We design incredibly creative websites for all our customers located worldwide.</p><a class="button button-light" href="#">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay="0.4s">
+              <div class="project-grid" style="background-image: url(images/vostfr/shadow.png);">
+                <div class="inner"><img src="images/vostfr/shadow.png" alt="" width="250" height="96"/>
+                  <h5 class="title"><a href="#">iStep Ltd.</a></h5>
+                  <p class="exeption">We design incredibly creative websites for all our customers located worldwide.</p><a class="button button-light" href="#">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay="0.6s">
+              <div class="project-grid" style="background-image: url(images/vostfr/valkyrys1.png);">
+                <div class="inner"><img src="images/vostfr/valkyrys1.png" alt="" width="250" height="96"/>
+                  <h5 class="title"><a href="#">Architex</a></h5>
+                  <p class="exeption">We design incredibly creative websites for all our customers located worldwide.</p><a class="button button-light" href="#">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button-wrap-1 text-center"><a class="button button-default" href="#">All projects</a></div>
+        </div>
+      </section>
+      <!-- Team-->
+      <section class="section section-lg bg-default">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="text-center">Les Autres</h3>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-15 row-gutter-14">
+            <div class="col-sm-6 col-lg-4">
+              <div class="box-team"> <a href="#" ><img src="images/vf.png" alt="" width="380" height="332"/></a>
+                <div class="meta">
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="box-team"><img src="images/vostfr/font.png" alt="" width="380" height="32"/>
+                <div class="meta">
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="box-team"> <a href="#" ><img src="images/plannification.png" alt="" width="380" height="332"/></a>
+                <div class="meta">
 
-        
-    </footer>
+                </div>
+              </div>
+            </div>
+       
+          </div>
+        </div>
+      </section>
+      <!-- Our clients-->
+     
 
+      <footer class="section footer-classic context-dark text-center">
+        <div class="container">
+          <div class="row row-15 justify-content-lg-between">
+            <div class="col-lg-6 col-xl-6 text-lg-left">
+              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. By <a href="https://roidesgueux.github.io/accueil/">Roi_Des_Gueux</a></p>
+            </div>
+           
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- coded by Drel-->
   </body>
-  </html>
+</html>
